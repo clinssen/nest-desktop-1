@@ -2,6 +2,8 @@
   "name": "nest-desktop",
   "version": "3.0.3",
   "private": true,
+  "description": "NEST Desktop is an graphical user interface (GUI), which is distinct from the simulation engine running anywhere, on the student’s laptop or on a supercomputer. It comprises graphical elements for creating and configuring network models, running simulations, as well as for visualizing and analyzing the results. NEST Desktop allows students to explore important concepts in computational neuroscience without the need to learn a simulator control language before.",
+  "author": "Sebastian Spreizer",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --prod",
@@ -82,7 +84,5 @@
     "vue-cli-plugin-vuetify": "^2.0.7",
     "vue-template-compiler": "^2.6.10",
     "vuetify-loader": "^1.3.0"
-  },
-  "author": "Sebastian Spreizer",
-  "description": "Simulation software for spiking neuronal network models matured in the past decades regarding performance and flexibility. Nevertheless, the entry barrier remains high for students and early career scientists in computational neuroscience since these simulators typically require programming skills and a complex installation. Here, we describe an installation-free graphical user interface (GUI) running in the web browser, which is distinct from the simulation engine running anywhere, on the student’s laptop or on a supercomputer. This architecture provides robustness against technological changes in the software stack and simplifies the deployment for process for students/autodidacts and for teachers. Our new open source tool, NEST Desktop, comprises graphical elements for creating and configuring network models, running simulations, as well as for visualizing and analyzing the results. NEST Desktop allows students to explore important concepts in computational neuroscience without the need to learn a simulator control language before."
+  }
 }
