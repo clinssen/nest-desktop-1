@@ -36,7 +36,7 @@ export class NESTServer extends Backend {
     // console.log('seek nest server');
     const protocol: string = window.location.protocol;
     const hostname: string = window.location.hostname || 'localhost';
-    const hosts: string[] = [hostname + ':5000', hostname + '/nest'];
+    const hosts: string[] = [hostname + ':7000', hostname + '/nest'];
     const hostPromises: any[] = hosts.map(
       (host: string) =>
         new Promise<void>(resolve => {
